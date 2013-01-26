@@ -1,0 +1,959 @@
+CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>arc-revo-cup  :  九州・沖縄</title>
+<meta name="Keywords" content="あーくれぼ,ギルティ,ブレイブルー,ペルソナ,P4U,BBCP,GGXX,アーク,公式全国" lang="ja">
+<meta name="description" content="アーケード版アークシステムワークス格闘ゲーム全国大会「あーくれぼ」開催！">
+<link rel="shortcut icon" href="http://arc-revo-cup.jp/wp-content/themes/arc/img/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://arc-revo-cup.jp/wp-content/themes/arc/img/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="http://arc-revo-cup.jp/wp-content/themes/arc/style.css" type="text/css"/>
+<link rel="stylesheet" href="http://arc-revo-cup.jp/wp-content/themes/arc/css/ui-lightness/jquery-ui-1.9.2.custom.min.css">
+<script src="http://arc-revo-cup.jp/wp-content/themes/arc/js/jquery-1.8.3.min.js"></script>
+<script src="http://arc-revo-cup.jp/wp-content/themes/arc/js/jquery-ui-1.9.2.custom.min.js"></script>
+
+    <style type="text/css">
+        #fancybox-close{right:-15px;top:-15px}
+        div#fancybox-content{border-color:#FFFFFF}
+        div#fancybox-title{background-color:#FFFFFF}
+        div#fancybox-outer{background-color:#FFFFFF}
+        div#fancybox-title-inside{color:#333333}
+    </style>
+
+    <link rel="alternate" type="application/rss+xml" title="arc-revo-cup &raquo; 九州・沖縄 のコメントのフィード" href="http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e4%b9%9d%e5%b7%9e%e3%83%bb%e6%b2%96%e7%b8%84/feed/" />
+<link rel='stylesheet' id='wpBannerizeStyleDefault.css-css'  href='http://arc-revo-cup.jp/wp-content/plugins/wp-bannerize/css/wpBannerizeStyleDefault.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://arc-revo-cup.jp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://arc-revo-cup.jp/wp-content/plugins/fancybox-for-wordpress/fancybox/fancybox.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://arc-revo-cup.jp/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://arc-revo-cup.jp/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<script type='text/javascript' src='http://arc-revo-cup.jp/wp-includes/js/comment-reply.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://arc-revo-cup.jp/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js?ver=1.3.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://arc-revo-cup.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://arc-revo-cup.jp/wp-includes/wlwmanifest.xml" />
+<link rel='prev' title='東京' href='http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e6%9d%b1%e4%ba%ac/' />
+<link rel='next' title='中国・四国' href='http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e4%b8%ad%e5%9b%bd%e3%83%bb%e5%9b%9b%e5%9b%bd/' />
+<meta name="generator" content="WordPress 3.4.2" />
+<link rel='canonical' href='http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e4%b9%9d%e5%b7%9e%e3%83%bb%e6%b2%96%e7%b8%84/' />
+
+<!-- Fancybox for WordPress v3.0.2 -->
+<script type="text/javascript">
+jQuery(function(){
+
+jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+    var arr = jQuery("a.fancybox");
+    jQuery.each(arr, function() {
+        var title = jQuery(this).children("img").attr("title");
+        jQuery(this).attr('title',title);
+    })
+}
+
+// Supported file extensions
+var thumbnails = jQuery("a:has(img)").not(".nolightbox").filter( function() { return /\.(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+
+thumbnails.addClass("fancybox").attr("rel","fancybox").getTitle();
+jQuery("a.fancybox").fancybox({
+    'cyclic': false,
+    'autoScale': true,
+    'padding': 10,
+    'opacity': true,
+    'speedIn': 500,
+    'speedOut': 500,
+    'changeSpeed': 300,
+    'overlayShow': true,
+    'overlayOpacity': "0.3",
+    'overlayColor': "#666666",
+    'titleShow': true,
+    'titlePosition': 'inside',
+    'enableEscapeButton': true,
+    'showCloseButton': true,
+    'showNavArrows': true,
+    'hideOnOverlayClick': true,
+    'hideOnContentClick': false,
+    'width': 560,
+    'height': 340,
+    'transitionIn': "fade",
+    'transitionOut': "fade",
+    'centerOnScroll': true
+});
+
+
+})
+</script>
+<!-- END Fancybox for WordPress -->
+<link rel="alternate" media="handheld" type="text/html" href="http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e4%b9%9d%e5%b7%9e%e3%83%bb%e6%b2%96%e7%b8%84/" />
+<script type="text/javascript">
+$(function() {
+    var topBtn = $('#page-top');
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+</script>
+<script type="text/javascript">
+/* ページ内リンク */
+$(function(){
+    $("a[href^=#]").click(function(){
+        var Hash = $(this.hash);
+        var HashOffset = $(Hash).offset().top;
+        $("html,body").animate({
+            scrollTop: HashOffset
+        }, 1000);
+        return false;
+    });
+});
+</script>
+
+    <style type="text/css">
+        #fancybox-close{right:-15px;top:-15px}
+        div#fancybox-content{border-color:#FFFFFF}
+        div#fancybox-title{background-color:#FFFFFF}
+        div#fancybox-outer{background-color:#FFFFFF}
+        div#fancybox-title-inside{color:#333333}
+    </style>
+
+    <link rel="alternate" type="application/rss+xml" title="arc-revo-cup &raquo; 九州・沖縄 のコメントのフィード" href="http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e4%b9%9d%e5%b7%9e%e3%83%bb%e6%b2%96%e7%b8%84/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://arc-revo-cup.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://arc-revo-cup.jp/wp-includes/wlwmanifest.xml" />
+<link rel='prev' title='東京' href='http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e6%9d%b1%e4%ba%ac/' />
+<link rel='next' title='中国・四国' href='http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e4%b8%ad%e5%9b%bd%e3%83%bb%e5%9b%9b%e5%9b%bd/' />
+<meta name="generator" content="WordPress 3.4.2" />
+<link rel='canonical' href='http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e4%b9%9d%e5%b7%9e%e3%83%bb%e6%b2%96%e7%b8%84/' />
+
+<!-- Fancybox for WordPress v3.0.2 -->
+<script type="text/javascript">
+jQuery(function(){
+
+jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+    var arr = jQuery("a.fancybox");
+    jQuery.each(arr, function() {
+        var title = jQuery(this).children("img").attr("title");
+        jQuery(this).attr('title',title);
+    })
+}
+
+// Supported file extensions
+var thumbnails = jQuery("a:has(img)").not(".nolightbox").filter( function() { return /\.(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+
+thumbnails.addClass("fancybox").attr("rel","fancybox").getTitle();
+jQuery("a.fancybox").fancybox({
+    'cyclic': false,
+    'autoScale': true,
+    'padding': 10,
+    'opacity': true,
+    'speedIn': 500,
+    'speedOut': 500,
+    'changeSpeed': 300,
+    'overlayShow': true,
+    'overlayOpacity': "0.3",
+    'overlayColor': "#666666",
+    'titleShow': true,
+    'titlePosition': 'inside',
+    'enableEscapeButton': true,
+    'showCloseButton': true,
+    'showNavArrows': true,
+    'hideOnOverlayClick': true,
+    'hideOnContentClick': false,
+    'width': 560,
+    'height': 340,
+    'transitionIn': "fade",
+    'transitionOut': "fade",
+    'centerOnScroll': true
+});
+
+
+})
+</script>
+<!-- END Fancybox for WordPress -->
+<link rel="alternate" media="handheld" type="text/html" href="http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/%e4%b9%9d%e5%b7%9e%e3%83%bb%e6%b2%96%e7%b8%84/" />
+</head>
+<body class="page page-id-79 page-child parent-pageid-38 page-template-default">
+<div id="container">
+
+<div id="contents">
+<ul class="bread_crumb">
+    <li class="level-1 top"><a href="http://arc-revo-cup.jp/">トップページ</a></li>
+    <li class="level-2 sub"><a href="http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/">予選実施店舗スケジュール</a></li>
+    <li class="level-3 sub tail current">九州・沖縄</li>
+</ul>
+<!-- パンくずリスト -->
+
+<div id="text">
+<h2>九州・沖縄</h2><p>九州・沖縄エリア：PDF版一覧[<a href="http://arc-revo-cup.jp/wp-content/uploads/2013/01/kyushu_okinawa.pdf">ダウンロード</a>]</p>
+<h3>BLAZBLUE CHRONOPHANTASMA (BBCP)</h3>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="4">福岡エリア</th>
+</tr>
+<tr>
+<th rowspan="4" nowrap="nowrap" width="5%">エ<br />
+        リ<br />
+        ア<br />
+        １</th>
+<td width="15%">2月23日</td>
+<td width="5%">土</td>
+<td width="75%"><a href="#scd178">ＴＡＣ戸畑店</a></td>
+</tr>
+<tr>
+<td>2月24日</td>
+<td>日</td>
+<td><a href="#scd177">G-stage飯塚</a></td>
+</tr>
+<tr>
+<td>3月2日</td>
+<td>土</td>
+<td><a href="#scd180">ＴＡＣ北方店</a></td>
+</tr>
+<tr>
+<td>3月3日</td>
+<td>日</td>
+<td><a href="#scd181">ハイパーメッセ</a></td>
+</tr>
+<tr>
+<th rowspan="4" nowrap="nowrap" width="5%">エ<br />
+        リ<br />
+        ア<br />
+        ２</th>
+<td>3月20日</td>
+<td>祝</td>
+<td><a href="#scd176">ジーカム和白</a></td>
+</tr>
+<tr>
+<td>3月23日</td>
+<td>土</td>
+<td><a href="#scd175">Ｇ－ＳＴＡＧＥ七隈</a></td>
+</tr>
+<tr>
+<td>3月24日</td>
+<td>日</td>
+<td><a href="#scd182" target="_blank">GIGAMAC博多店</a></td>
+</tr>
+<tr>
+<td>3月30日</td>
+<td>土</td>
+<td><a href="#scd183">タイトーステーション福岡天神店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">宮崎エリア</th>
+</tr>
+<tr>
+<td width="20%">3月9日</td>
+<td width="5%">土</td>
+<td><a href="#scd188">宮崎　ゲーム　アーサ</a></td>
+</tr>
+<tr>
+<td>3月10日</td>
+<td>日</td>
+<td><a href="#scd189">セガワールドヒダカプラザ</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">鹿児島エリア</th>
+</tr>
+<tr>
+<td width="20%">3月16日</td>
+<td width="5%">土</td>
+<td><a href="#scd191">ゲームセンター電撃新栄店</a></td>
+</tr>
+<tr>
+<td>3月17日</td>
+<td>日</td>
+<td><a href="#scd190">アミューズメント・リバティー</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">沖縄エリア</th>
+</tr>
+<tr>
+<td width="20%">3月31日</td>
+<td width="5%">日</td>
+<td><a href="#scd192">ゲオパークコザミュージックタウン店</a></td>
+</tr>
+<tr>
+<td>4月6日</td>
+<td>土</td>
+<td><a href="#scd193">アミューズメントスペース　EAGLE</a></td>
+</tr>
+<tr>
+<td>4月7日</td>
+<td>日</td>
+<td><a href="#scd194">アミューズメントスペース　EAGLEⅡ</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">佐賀エリア</th>
+</tr>
+<tr>
+<td width="20%">4月13日</td>
+<td width="5%">土</td>
+<td><a href="#scd184">AsobiDouraku嘉瀬店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">大分エリア</th>
+</tr>
+<tr>
+<td width="20%">4月14日</td>
+<td width="5%">日</td>
+<td><a href="#scd187">ギガ津留店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">熊本エリア</th>
+</tr>
+<tr>
+<td width="20%">4月20日</td>
+<td width="5%">土</td>
+<td><a href="#scd186">ジーカム上熊本</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">長崎エリア</th>
+</tr>
+<tr>
+<td width="20%">4月21日</td>
+<td width="5%">日</td>
+<td><a href="#scd185">アミパラ佐世保店</a></td>
+</tr>
+</tbody>
+</table>
+<h3>ペルソナ4　ジ・アルティメット　イン　マヨナカアリーナ（P4U）</h3>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">熊本エリア</th>
+</tr>
+<tr>
+<td width="20%">2月24日</td>
+<td width="5%">日</td>
+<td><a href="#scd186">ジーカム上熊本</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">佐賀エリア</th>
+</tr>
+<tr>
+<td width="20%">3月2日</td>
+<td width="5%">土</td>
+<td><a href="#scd184">AsobiDouraku嘉瀬店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="4">福岡エリア</th>
+</tr>
+<tr>
+<th rowspan="3" nowrap="nowrap" width="5%">エ<br />
+        リ<br />
+        ア<br />
+        １</th>
+<td width="15%">3月9日</td>
+<td width="5%">土</td>
+<td width="75%"><a href="#scd178">ＴＡＣ戸畑店</a></td>
+</tr>
+<tr>
+<td>3月10日</td>
+<td>日</td>
+<td><a href="#scd180">ＴＡＣ北方店</a></td>
+</tr>
+<tr>
+<td>3月16日</td>
+<td>土</td>
+<td><a href="#scd176">ジーカム和白</a></td>
+</tr>
+<tr>
+<th rowspan="3" nowrap="nowrap" width="5%">エ<br />
+        リ<br />
+        ア<br />
+        ２</th>
+<td>4月6日</td>
+<td>土</td>
+<td><a href="#scd182" target="_blank">GIGAMAC博多店</a></td>
+</tr>
+<tr>
+<td>4月7日</td>
+<td>日</td>
+<td><a href="#scd175">Ｇ－ＳＴＡＧＥ七隈</a></td>
+</tr>
+<tr>
+<td>4月13日</td>
+<td>土</td>
+<td><a href="#scd183">タイトーステーション福岡天神店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">宮崎エリア</th>
+</tr>
+<tr>
+<td width="20%">3月23日</td>
+<td width="5%">土</td>
+<td><a href="#scd188">宮崎　ゲーム　アーサ</a></td>
+</tr>
+<tr>
+<td>3月24日</td>
+<td>日</td>
+<td><a href="#scd189">セガワールドヒダカプラザ</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">鹿児島エリア</th>
+</tr>
+<tr>
+<td width="20%">3月30日</td>
+<td width="5%">土</td>
+<td><a href="#scd191">ゲームセンター電撃新栄店</a></td>
+</tr>
+<tr>
+<td>3月31日</td>
+<td>日</td>
+<td><a href="#scd190">アミューズメント・リバティー</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">長崎エリア</th>
+</tr>
+<tr>
+<td width="20%">4月14日</td>
+<td width="5%">日</td>
+<td><a href="#scd185">アミパラ佐世保店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">沖縄エリア</th>
+</tr>
+<tr>
+<td width="20%">4月20日</td>
+<td width="5%">土</td>
+<td><a href="#scd192">ゲオパークコザミュージックタウン店</a></td>
+</tr>
+<tr>
+<td>4月21日</td>
+<td>日</td>
+<td><a href="#scd194">アミューズメントスペース　EAGLEⅡ</a></td>
+</tr>
+</tbody>
+</table>
+<h3>GUILTY GEAR XX ΛCORE PLUS R(GGACPR)</h3>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">鹿児島エリア</th>
+</tr>
+<tr>
+<td width="20%">3月2日</td>
+<td width="5%">土</td>
+<td><a href="#scd191">ゲームセンター電撃新栄店</a></td>
+</tr>
+<tr>
+<td>3月3日</td>
+<td>日</td>
+<td><a href="#scd190">アミューズメント・リバティー</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="4">福岡エリア</th>
+</tr>
+<tr>
+<th rowspan="2" nowrap="nowrap" width="5%">エ<br />
+        リ<br />
+        ア<br />
+        １</th>
+<td width="15%">3月9日</td>
+<td width="5%">土</td>
+<td width="75%"><a href="#scd176">ジーカム和白</a></td>
+</tr>
+<tr>
+<td>3月10日</td>
+<td>日</td>
+<td><a href="#scd175">Ｇ－ＳＴＡＧＥ七隈</a></td>
+</tr>
+<tr>
+<th rowspan="2" nowrap="nowrap" width="5%">エ<br />
+        リ<br />
+        ア<br />
+        ２</th>
+<td>3月23日</td>
+<td>土</td>
+<td><a href="#scd178">ＴＡＣ戸畑店</a></td>
+</tr>
+<tr>
+<td>3月24日</td>
+<td>日</td>
+<td><a href="#scd181">ハイパーメッセ</a></td>
+</tr>
+<tr>
+<th nowrap="nowrap" width="5%">エ<br />
+        リ<br />
+        ア<br />
+        ３</th>
+<td>4月21日</td>
+<td>日</td>
+<td><a href="#scd183">タイトーステーション福岡天神店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">長崎エリア</th>
+</tr>
+<tr>
+<td width="20%">3月31日</td>
+<td width="5%">日</td>
+<td><a href="#scd185">アミパラ佐世保店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">佐賀エリア</th>
+</tr>
+<tr>
+<td width="20%">4月6日</td>
+<td width="5%">土</td>
+<td><a href="#scd184">AsobiDouraku嘉瀬店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">大分エリア</th>
+</tr>
+<tr>
+<td width="20%">4月7日</td>
+<td width="5%">日</td>
+<td><a href="#scd187">ギガ津留店</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">熊本エリア</th>
+</tr>
+<tr>
+<td width="20%">4月13日</td>
+<td width="5%">土</td>
+<td><a href="#scd186">ジーカム上熊本</a></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="3">宮崎エリア</th>
+</tr>
+<tr>
+<td width="20%">4月20日</td>
+<td width="5%">土</td>
+<td><a href="#scd188">宮崎　ゲーム　アーサ</a></td>
+</tr>
+</tbody>
+</table>
+<h3>予選実施店舗詳細一覧</h3>
+<div id="scd_data"> <a id="scd175"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th><a href="http://nextstage2009.com/nanakuma/" target="_blank" class="scd_link_hp">Ｇ－ＳＴＡＧＥ七隈</a></th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月23日<br />
+        <span class="icon_p4u">[P4U]</span>4月7日<br />
+        <span class="icon_ggx">[GGACPR]</span>3月10日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.636632,130.464363&amp;spn=0.219524,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e09265c42e8dcbd,,,0,-31" target="_blank" class="scd_link_map">福岡県福岡市城南区七隈8-4-8   七隈ファミリープラザ内</a></td>
+</tr>
+<tr>
+<td>TEL:050-3539-3592</td>
+</tr>
+</table>
+<p>  <a id="scd176"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th><a href="http://www.cw-office.co.jp/area_passca/gam_gcom/gam_shop01.shtml" target="_blank" class="scd_link_hp">ジーカム和白</a></th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月20日<br />
+        <span class="icon_p4u">[P4U]</span>3月16日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_ggx">[GGACPR]</span>3月9日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.652923,130.464363&amp;spn=0.219483,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e0a4556457f39f0,,,0,-31" target="_blank" class="scd_link_map">福岡県福岡市東区和白3-27-69</a></td>
+</tr>
+<tr>
+<td>TEL:092-608-5881</td>
+</tr>
+</table>
+<p>  <a id="scd177"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th><a href="http://nextstage2009.com/iiduka/" target="_blank" class="scd_link_hp">G-stage飯塚</a></th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>2月24日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.652923,130.603065&amp;spn=0.219483,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e1359068cfec13a,,,0,-31" target="_blank" class="scd_link_map">福岡県飯塚市枝国680-2</a></td>
+</tr>
+<tr>
+<td>TEL:050-3539-3593</td>
+</tr>
+</table>
+<p>  <a id="scd178"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th><a href="http://homepage2.nifty.com/t-a-c/index.html" target="_blank" class="scd_link_hp">ＴＡＣ戸畑店</a></th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>2月23日<br />
+        <span class="icon_p4u">[P4U]</span>3月9日<br />
+        <span class="icon_ggx">[GGACPR]</span>3月23日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.862148,130.831032&amp;spn=0.218948,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e13fc4df4bb29a3,,,0,-31" target="_blank" class="scd_link_map">福岡県北九州市戸畑区中原西１丁目１１－１１    ウエストヒル１Ｆ</a></td>
+</tr>
+<tr>
+<td>TEL:093-873-9100</td>
+</tr>
+</table>
+<p>  <a id="scd180"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th><a href="http://amtac.dip.jp/index1.html" target="_blank" class="scd_link_hp">ＴＡＣ北方店</a></th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月2日<br />
+        <span class="icon_p4u">[P4U]</span>3月10日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.862148,130.831032&amp;spn=0.218948,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e154c5205dd8794,,,0,-31" target="_blank" class="scd_link_map">福岡県北九州市小倉南区北方4-1-11  ロイヤルインテリジェンスビル１Ｆ</a></td>
+</tr>
+<tr>
+<td>TEL:093-941-9022</td>
+</tr>
+</table>
+<p>  <a id="scd181"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>ハイパーメッセ</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月3日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_ggx">[GGACPR]</span>3月24日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.862148,130.831032&amp;spn=0.218948,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e169eeb330bf5d4,,,0,-31" target="_blank" class="scd_link_map">福岡県北九州市小倉南区北方4-6-7</a></td>
+</tr>
+<tr>
+<td>TEL:093-963-7850</td>
+</tr>
+</table>
+<p>  <a id="scd182"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>GIGAMAC博多店</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月24日<br />
+        <span class="icon_p4u">[P4U]</span>4月6日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.663211,130.531654&amp;spn=0.219457,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e16bf991b87e152,,,0,-31" target="_blank" class="scd_link_map">福岡県福岡市博多区博多駅南6-7-33</a></td>
+</tr>
+<tr>
+<td>TEL:092-433-7670</td>
+</tr>
+</table>
+<p>  <a id="scd183"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>タイトーステーション福岡天神店</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月30日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_p4u">[P4U]</span>4月13日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_ggx">[GGACPR]</span>4月21日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.663211,130.494576&amp;spn=0.219457,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e16c9f9005450c6,,,0,-31" target="_blank" class="scd_link_map">福岡県福岡市中央区天神2-6-35</a></td>
+</tr>
+<tr>
+<td>TEL:092-737-5500</td>
+</tr>
+</table>
+<p>  <a id="scd184"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th><a href="http://www.dli-mobile.com/?in=914921" target="_blank" class="scd_link_hp">AsobiDouraku嘉瀬店</a></th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>4月13日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_p4u">[P4U]</span>3月2日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_ggx">[GGACPR]</span>4月6日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.327373,130.336647&amp;spn=0.22031,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e1711974d7cc8d7,,,0,-31" target="_blank" class="scd_link_map">佐賀県佐賀市嘉瀬町大字中原2488-1</a></td>
+</tr>
+<tr>
+<td>TEL:0952-40-0952</td>
+</tr>
+</table>
+<p>  <a id="scd185"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>アミパラ佐世保店</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>4月21日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_p4u">[P4U]</span>4月14日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_ggx">[GGACPR]</span>3月31日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.235242,129.880028&amp;spn=0.220542,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e175676e0fca3c7,,,0,-31" target="_blank" class="scd_link_map">長崎県佐世保市大塔町18-15</a></td>
+</tr>
+<tr>
+<td>TEL:0956-34-8880</td>
+</tr>
+</table>
+<p>  <a id="scd186"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>ジーカム上熊本</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>4月20日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_p4u">[P4U]</span>2月24日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_ggx">[GGACPR]</span>4月13日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=32.910721,130.625038&amp;spn=0.221357,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e178cdbcc0aee22,,,0,-31" target="_blank" class="scd_link_map">熊本県熊本市西区上熊本2丁目17-42</a></td>
+</tr>
+<tr>
+<td>TEL:096-323-0076</td>
+</tr>
+</table>
+<p>  <a id="scd187"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>ギガ津留店</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>4月14日<br />
+        <span class="icon_ggx">[GGACPR]</span>4月7日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=33.195029,131.587372&amp;spn=0.220644,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e17ac0eb33311a7,,,0,-31" target="_blank" class="scd_link_map">大分県大分市中津留1-1-18</a></td>
+</tr>
+<tr>
+<td>TEL:097-553-0800</td>
+</tr>
+</table>
+<p>  <a id="scd188"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>宮崎　ゲーム　アーサ</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月9日<br />
+        <span class="icon_p4u">[P4U]</span>3月23日<br />
+        <span class="icon_ggx">[GGACPR]</span>4月20日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=31.982453,131.521111&amp;spn=0.223649,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e17badf2f5dd87c,,,0,-31" target="_blank" class="scd_link_map">宮崎県宮崎市大淀３丁目5-13</a></td>
+</tr>
+<tr>
+<td>TEL:0985-51-0745</td>
+</tr>
+</table>
+<p>  <a id="scd189"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>セガワールドヒダカプラザ</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月10日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_p4u">[P4U]</span>3月24日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=32.502813,131.63681&amp;spn=0.222372,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e17c8e0ce2193eb,,,0,-31" target="_blank" class="scd_link_map">宮崎県延岡市平原町５丁目１４９２－８</a></td>
+</tr>
+<tr>
+<td>TEL:0982-35-5917</td>
+</tr>
+</table>
+<p>  <a id="scd190"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>アミューズメント・リバティー</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月17日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_p4u">[P4U]</span>3月31日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_ggx">[GGACPR]</span>3月3日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=31.677051,130.655251&amp;spn=0.22439,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e17d995826b7bed,,,0,-31" target="_blank" class="scd_link_map">鹿児島県鹿児島市千日町15-15   リバティーハウスビル2.3階</a></td>
+</tr>
+<tr>
+<td>TEL:099-219-1526</td>
+</tr>
+</table>
+<p>  <a id="scd191"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>ゲームセンター電撃新栄店</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月16日<br />
+        <span class="icon_p4u">[P4U]</span>3月30日<br />
+        <span class="icon_ggx">[GGACPR]</span>3月2日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=31.637014,130.643578&amp;spn=0.224487,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e17efc29de25c90,,,0,-31" target="_blank" class="scd_link_map">鹿児島県鹿児島市新栄町1-28</a></td>
+</tr>
+<tr>
+<td>TEL:099-255-2505</td>
+</tr>
+</table>
+<p>  <a id="scd192"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th><a href="http://www.geodinos.jp/game/18.html" target="_blank" class="scd_link_hp">ゲオパークコザミュージックタウン店</a></th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>3月31日<br />
+        <span class="icon_p4u">[P4U]</span>4月20日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=26.426616,127.892189&amp;spn=0.236119,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e18141a4783af70,,,0,-31" target="_blank" class="scd_link_map">沖縄県沖縄市上地1丁目1番1号</a></td>
+</tr>
+<tr>
+<td>TEL:098-983-8020</td>
+</tr>
+</table>
+<p>  <a id="scd193"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>アミューズメントスペース　EAGLE</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>4月6日</td>
+</tr>
+<tr>
+<td><a href="https://maps.google.co.jp/maps/ms?msid=209133075027706008494.0004d1bffb294b5b5289f&amp;msa=0&amp;ll=26.353113,127.836227&amp;spn=0.23627,0.258179&amp;iwloc=lyrftr:msid:209133075027706008494.0004d1bffb294b5b5289f,0004d1e184aa889217642,,,0,-31" target="_blank" class="scd_link_map">沖縄県宜野湾市真栄原2-12-5</a></td>
+</tr>
+<tr>
+<td>TEL:098-899-1322</td>
+</tr>
+</table>
+<p>  <a id="scd194"></a></p>
+<table cellpadding="0" cellspacing="0" border="1" width="100%">
+<tr>
+<th>アミューズメントスペース　EAGLEⅡ</th>
+<td rowspan="3" class="scd_day" width="40%"><span class="icon_bb">[BBCP]</span>4月7日<span class="icon_final">(エリア決勝)</span><br />
+        <span class="icon_p4u">[P4U]</span>4月21日<span class="icon_final">(エリア決勝)</span></td>
+</tr>
+<tr>
+<td><a href="沖縄県浦添市勢理客2-14-6" target="_blank" class="scd_link_map">沖縄県浦添市勢理客2-14-6</a></td>
+</tr>
+<tr>
+<td>TEL:098-875-0088</td>
+</tr>
+</table>
+</div>
+</div>
+</div><!-- /#contents -->
+
+<div id="sidebar">
+<div id="nav">
+<div class="menu-arc-menu-container"><ul id="menu-arc-menu" class="menu"><li id="menu-item-23" class="top menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://arc-revo-cup.jp/">トップページ</a></li>
+<li id="menu-item-26" class="news menu-item menu-item-type-taxonomy menu-item-object-category menu-item-26"><a href="http://arc-revo-cup.jp/category/%e6%9c%80%e6%96%b0%e6%83%85%e5%a0%b1/">最新情報</a></li>
+<li id="menu-item-122" class="gaiyo menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="http://arc-revo-cup.jp/%E5%A4%A7%E4%BC%9A%E9%96%8B%E5%82%AC%E6%A6%82%E8%A6%81/">大会開催概要</a></li>
+<li id="menu-item-25" class="guide menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://arc-revo-cup.jp/%e5%8f%82%e5%8a%a0%e3%83%bb%e8%a6%b3%e6%88%a6%e3%82%ab%e3%82%99%e3%82%a4%e3%83%88%e3%82%99/">全国決勝大会観戦ガイド</a></li>
+<li id="menu-item-24" class="reg menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://arc-revo-cup.jp/%E5%8F%82%E5%8A%A0%E3%83%AB%E3%83%BC%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">参加ルールについて</a></li>
+<li id="menu-item-40" class="sch menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-40"><a href="http://arc-revo-cup.jp/%e4%ba%88%e9%81%b8%e5%ae%9f%e6%96%bd%e5%ba%97%e8%88%97%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/">予選実施店舗スケジュール</a></li>
+<li id="menu-item-36" class="blog menu-item menu-item-type-taxonomy menu-item-object-category menu-item-36"><a href="http://arc-revo-cup.jp/category/%e5%a4%a7%e4%bc%9a%e3%83%96%e3%83%ad%e3%82%b0/">大会ブログ</a></li>
+<li id="menu-item-21" class="faq menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://arc-revo-cup.jp/faq/">FAQ</a></li>
+<li id="menu-item-22" class="form menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://arc-revo-cup.jp/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%81%9b/">お問い合せ</a></li>
+</ul></div></div>
+<div class="banner">
+</div>
+<div id="twitter" class="section">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: '#arc25th OR あーくれぼ',
+      interval: 30000,
+      title: 'ARC REVOLUTION CUP',
+      subject: '「あーくれぼ」ツイート',
+      width: 292,
+      height: 473,
+      theme: {
+        shell: {
+          background: '#ff0000',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#444444',
+          links: '#1985b5'
+        }
+      },
+      features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    behavior: 'all'
+      }
+    }).render().start();
+    </script>
+    </div><!-- /section -->
+</div><!-- /#sidebar --><!-- サイドバー -->
+<p id="page-top"><a href="#head">PAGE TOP</a></p>
+</div><!-- /#container -->
+<div id="footer">&copy; ARC SYSTEM WORKS</div><!-- /#footer -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpBannerizeJavascriptLocalization = {"ajaxURL":"http:\/\/arc-revo-cup.jp\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://arc-revo-cup.jp/wp-content/plugins/wp-bannerize/js/wpBannerizeFrontend.min.js?ver=3.0.62'></script>
+<script type='text/javascript' src='http://arc-revo-cup.jp/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.23'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/arc-revo-cup.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"\u9001\u4fe1\u4e2d ...","cached":"1"};
+var _wpcf7 = {"loaderUrl":"http:\/\/arc-revo-cup.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"\u9001\u4fe1\u4e2d ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://arc-revo-cup.jp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.2'></script>
+</body>
+</html><!-- フッター -->
+<!-- Dynamic page generated in 0.249 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2013-01-23 22:32:43 -->
+
+<!-- super cache -->
+
