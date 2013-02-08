@@ -7,13 +7,15 @@ my $file = $ARGV[0];
 open(INFO, $file) or die("Can not read the input");
 
 my $count = 0;
-my @infolist;
+my $event = 0;
+
+my @bbinfo;
+my @p4uinfo;
+my @gginfo;
 
 my $bbtitle = "BBCP";
 my $p4utitle = "P4U";
 my $ggtitle = "GGAC";
-my $event = 0; 
-
 
 foreach my $line (<INFO>) {
 	chomp($line); #remove the new line
@@ -34,12 +36,26 @@ foreach my $line (<INFO>) {
 		print "$line\n";
 	}
 
-	if ($line =~ m/エ.*リ.*ア/){
-		print "$line\n";
+	if ($line =~ m/\<th.*\>(.*エリア)/) {
+		print "$1\n";
 	}
 
-	$infolist[$count] = $line;
-	$count++;
+	if ($line =~ m/エ.*リ.*ア\<br\s\/\>(.*)\<\/th\>/) {
+		print "エリア$1\n";
+	}
+
+	if ($line =~ m/\<a\shref="#scd[0-9]{3}"\>(.*)\<\/a\>/) {
+		$1 =~ m/(.*)\<\/a\>/;
+		print "Location: $1\n";
+	}
+
+	if ($line =~ m/([0-9]+)月([0-9]+)日/) {
+		print "Date: $1/$2/2013\n";
+	}
+
+
+	#$infolist[$count] = $line;
+	#$count++;
 }
 
 if ($ARGV[0] eq "あ"){
