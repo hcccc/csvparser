@@ -21,7 +21,11 @@ my $bbtitle = "BBCP";
 my $p4utitle = "P4U";
 my $ggtitle = "GGAC";
 my $area_final = "エリア決勝";
-my $outfile = 'date.csv';
+
+my $bb_out_file = 'bb_date.csv';
+my $p4u_out_file = 'p4u_date.csv';
+my $gg_out_file = 'gg_date.csv';
+
 
 my $parseShopInfo = 0;
 
@@ -49,8 +53,12 @@ my $is_gg_final = 0;
 
 
 
-open(CSVFILE,">$outfile") or die("Can not open output file");
-print CSVFILE "Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private\n";
+open(BBOUTFILE,">$bb_out_file") or die("Can not open output file");
+print BBOUTFILE "Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private\n";
+open(P4UOUTFILE,">$p4u_out_file") or die("Can not open output file");
+print P4UOUTFILE "Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private\n";
+open(GGOUTFILE,">$gg_out_file") or die("Can not open output file");
+print GGOUTFILE "Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private\n";
 
 
 foreach my $line (<INFO>) {
@@ -80,13 +88,12 @@ for (my $i = 0; $i < $count; $i++) {
 	$region = $event_info{$i}{'region'};
 	$event_title = $event_info{$i}{'event_title'};
 
-	#print "count: $i\n";
 	#print "shop name: $shop_name\n";
 
 	$shop_url = $shop_info{$shop_name}{'shop_url'};
 	$tel = $shop_info{$shop_name}{'tel'};
 	$address = $shop_info{$shop_name}{'address'};
-	$map_url = $shop_info{$shop_name}{'map_url'};
+	#$map_url = $shop_info{$shop_name}{'map_url'};
 	$is_area_final = 0;
 
 	switch ($event_title) {
@@ -107,24 +114,46 @@ for (my $i = 0; $i < $count; $i++) {
 		}
 	}
 
+	my $event_subject = "";
 	my $description = "";
 	if (defined($area_number)) {
-		$description = "$subject $region エリア$area_number";
+		$event_subject = "$subject $region エリア$area_number $shop_name予選"; 
 	}
 	else {
-		$description = "$subject $region";
+		$event_subject = "$subject $region $shop_name予選"; 
 	}
 
 	if ($is_area_final == 1) { 	
-		$description = $description . "[エリア決勝]";
+		$event_subject = $event_subject . "[エリア決勝]";
 	}
 
-	print CSVFILE "$subject,$date,$date,true,$description,$shop_name,false\n";
+	$description = $event_subject;
+
+	if ($shop_url ne '') {
+		$description = $description . "  URL: $shop_url";
+	}
+
+	$description = $description . "  $tel";
+
+	my $map_detail = $shop_name . "  " . $address;
+
+	switch ($event_title) {
+		case 1 {
+			print BBOUTFILE "$event_subject,$date,0:00,$date,0:00,true,$description,$map_detail,false\n";
+		}
+		case 2 {
+			print P4UOUTFILE "$event_subject,$date,0:00,$date,0:00,true,$description,$map_detail,false\n";
+		}
+		case 3 {
+			print GGOUTFILE "$event_subject,$date,0:00,$date,0:00,true,$description,$map_detail,false\n";
+		}
+	}
+
 } 
 
 
-print Dumper(\%event_info); 
-print Dumper(\%shop_info);
+#print Dumper(\%event_info); 
+#print Dumper(\%shop_info);
 #my $size = scalar(keys %event_info);
 #print "$size\n";
 
@@ -148,18 +177,22 @@ sub getAreaInfo {
 		$region = $1;
 	}
 
-	if ($line =~ m/.*ア\<br\s\/\>\s?(.*)\<\/th\>/) {
+	if ($line =~ m/ア\<br\s\/\>\s?(.*)\<\/th\>/) {
 		$area_number = $1;
 	} 
+
+	if ($line =~ m/\<th\scolspan=\"3\"\>.*エリア\<\/th\>/) {
+		undef $area_number;
+	}
 
 	if ($line =~ m/\<a\shref="#scd[0-9]{3}"\>(.*)\<\/a\>/) {
 		$1 =~ m/(.*)\<\/a\>/;
 		$shop_name = $1;
 
 		switch ($event_title) {
-			case 1	{ $subject = "[$bbtitle]$region $shop_name予選"; }
-			case 2  { $subject = "[$p4utitle]$region $shop_name予選"; }
-			case 3  { $subject = "[$ggtitle]$region $shop_name予選";	}
+			case 1	{ $subject = "[$bbtitle]"; }
+			case 2  { $subject = "[$p4utitle]"; }
+			case 3  { $subject = "[$ggtitle]";	}
 		}
 
 		$event_info{$count}{'subject'} = $subject;
@@ -227,13 +260,17 @@ sub getShopInfo {
 		$address = $2;
 	}
 
+	#if ($line =~ m/.*scd_link_map.*target="_blank"\>(.*)\<\/a\>/) {
+	#	$address = $1;
+	#}
+
 
 	if ($line =~ m/(TEL:.*)\<\/td\>/) {
 		$tel = $1;
 
 		$shop_info{$shop_name}{'tel'} = $tel;
 		$shop_info{$shop_name}{'address'} = $address;
-		$shop_info{$shop_name}{'map_url'} = $map_url;
+		#$shop_info{$shop_name}{'map_url'} = $map_url;
 		$shop_info{$shop_name}{'shop_url'} = $shop_url;
 
 		if($bb_date ne ""){
@@ -281,6 +318,8 @@ sub cleanup {
 
 #print CSVFILE "$subject,$date,$date,true,$subject,$location,false\n";
 close (INFO);
-close (CSVFILE);
+close (BBOUTFILE);
+close (P4UOUTFILE);
+close (GGOUTFILE);
 
 exit 0;
